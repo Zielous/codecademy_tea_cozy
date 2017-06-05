@@ -78,23 +78,26 @@ body {
   border: 1px solid yellow;
 }
 
-
 .space-between-3 {
   display: flex;
   justify-content: space-between;
   width: 96%;
+  flex-wrap: wrap;
 }
 
 .space-between-2 {
   display: flex;
   justify-content: space-between;
   width: 63%;
+  flex-wrap: wrap;
 }
 
 /***** Article section *****/
 
 article {
   padding-top: 70px;
+  display: flex;
+  flex-direction: column;
 }
 
 .anchor-padding:before {
@@ -136,6 +139,36 @@ article {
   width: 1000px;
 }
 
-.featured-tea-title {
+.full-width {
   width: 100%;
+  margin-bottom: 0px;
+}
+
+
+/***** Locations section *****/
+
+.locations-banner {
+  background-image: url("../images/img-locations-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+}
+
+.location-box {
+  background: black;
+  width: 300px;
+  height: auto;
+  margin-top: 15px;
+  opacity: 1;
+  margin-right: 40px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.lb-last {
+  margin-right: -40px;
 }
