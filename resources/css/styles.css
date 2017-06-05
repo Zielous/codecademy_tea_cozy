@@ -92,6 +92,22 @@ article {
   background-repeat: no-repeat;
   height: 700px;
   width: 1200px;
+
+  display: flex;
+  align-items: center;
+}
+
+.margin-top {
+  margin-top: 5px;
+}
+
+.margin-bottom {
+  margin-bottom: 15px;
+}
+
+.black-band {
+  background: black;
+  width: 100%;
 }
 
 
