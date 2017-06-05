@@ -1,14 +1,10 @@
-/***** RED LINE *****/
+/***** QC STUFF *****/
 
 .red * {
   border: 1px solid red;
 }
 
-
-
-
-
-
+/***** Global *****/
 
 body {
   margin: 0px;
@@ -148,7 +144,6 @@ article {
   width: 100%;
   margin-bottom: 0px;
 }
-
 
 /***** Locations section *****/
 
