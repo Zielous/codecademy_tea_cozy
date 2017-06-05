@@ -68,14 +68,33 @@ body {
   text-decoration: underline;
 }
 
+/***** Flex container templates *****/
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid yellow;
+}
+
+
+.space-between-3 {
+  display: flex;
+  justify-content: space-between;
+  width: 96%;
+}
+
+.space-between-2 {
+  display: flex;
+  justify-content: space-between;
+  width: 63%;
+}
+
 /***** Article section *****/
 
 article {
   padding-top: 70px;
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
 .anchor-padding:before {
@@ -88,20 +107,23 @@ article {
 
 .hero-banner {
   background-image: url("../images/img-mission-background.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 700px;
   width: 1200px;
-
-  display: flex;
-  align-items: center;
 }
 
-.margin-top {
+.margin-top-5 {
   margin-top: 5px;
 }
 
-.margin-bottom {
+.margin-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.margin-bottom-15 {
   margin-bottom: 15px;
 }
 
@@ -110,4 +132,10 @@ article {
   width: 100%;
 }
 
+.featured-tea {
+  width: 1000px;
+}
 
+.featured-tea-title {
+  width: 100%;
+}
